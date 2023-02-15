@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.ful-page{
+    height: 700px ;
+    border: 1px solid red;
+}
+.navbar{
+    height: 70px;
+    width: 100%;
+    border: 1px solid black;
+    background-color: #131921;
+    }
+.left{
+    display: flex;
+}
+.left h1{
+    margin-top: 15px;
+    margin-left: 15px;
+    color: white;
+    font-weight: 800;
+}
+.left p{
+    margin-top: 30px;
+    font-weight: 600;
+    color: white;
+}
+.i2{
+    display: flex;
+}
+.i2 i{
+    margin-top: 35px;
+    margin-left: 15px;
+    color: white;
+}
+.i2 h4{
+    margin-top: 40px;
+    color: white;
+    margin-left: 5px;
+}
+.i3{
+    margin-top: 20px;
+    margin-left: 10px;
+    height: 30px;
+    width: 30%;
+    background-color: #febd69;
+    border-radius: 8px;
+}
+.i3 :hover{
+    border:1px solid  #febd69;
+
+}
+.i3 button{
+    height: 31px;
+    width: 15%;
+    cursor: pointer;
+}
+.i3 input{
+    height:28px ;
+    width: 75%;
+    border: none;
+    outline: none;
+    margin-left: -5px;
+}
+.i3 i{
+    margin-left: 5px;
+    cursor: pointer;
+}
+.right{
+    display: flex;
+}
+.en{
+    display: flex;
+}
+.en img{
+    height: 20px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.en h3{
+    margin-top:45px ;
+    margin-left: 8px;
+    color:white;
+    font-size: 14px;
+}
+.aco h4{
+     margin-top: 24px;
+     margin-left: 24px;
+     color: white;
+}
+.aco h3{
+    margin-left:24px ;
+    color: white;
+}
+.ret h4{
+    margin-top: 24px;
+    margin-left: 24px;
+    color: white;
+}
+.ret h3{
+    margin-left: 24px;
+    color: white;
+}
+.crt{
+    display: flex;
+}
+.crt i{
+    margin-top: 37px;
+    margin-left: 35px;
+    color: white;
+}
+.crt h3{
+    margin-top: 37px;
+    margin-left: 15px;
+    color: white;
+}
+/* navbarcomplet */
+/* secondnavstart */
+.nav2{
+    height: 50px;
+    width: 100%;
+    background-color: #232f3e;
+}
+.leftside{
+    display: flex;
+}
+.leftside h3{
+    margin-top: 20px;
+    margin-left: 15px;
+    color: white;
+    font-size: 16px;
+    font-weight: 800;
+}
+.al{
+    display: flex;
+}
+.al i{
+    margin-top: 20px;
+    margin-left: 10px;
+    color: white;
+}
+.rightside img{
+    margin-top: 10px;
+    margin-left: 15px;
+}
