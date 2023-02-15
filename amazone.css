@@ -148,4 +148,71 @@
     height: 40px;
     width: 100%;
     background-color: #fafafa;
+    border: 1px solid rgb(230, 227, 227);
+}
+.nav3{
+    display: flex;
+}
+.nav3 h4{
+    margin-top: 15px;
+    margin-left: 15px;
+    opacity: 0.9;
+    font-size: 16px;
+    cursor: pointer;
+}
+.nav3 h4:hover{
+    background-color: orange;
+}
+.m1page{
+    border: 1px solid red;
+    height: 500px;
+    width: 100%;
+}
+.m1left{
+    border: 1px solid black;
+    height:500px ;
+    width: 25%;
+}
+.m1left h2{
+    margin-top: 10px;
+    margin-left: 10%;
+    font-size: 22px;
+    font-weight: 800;
+    font-style: bold;
+    cursor: pointer;
+}
+.m1left h3{
+    margin-top: 10px;
+    margin-left: 15%;
+    font-weight: 900;
+    cursor: pointer;
+}
+.m1left h4{
+    margin-top: 10px;
+    margin-left:20% ;
+    cursor: pointer;
+    opacity: 0.9;
+}
+.m1left h4:hover{
+    color: rgb(179, 117, 4);
+}
+.m2left h3{
+ margin-top: 20px;
+ margin-left: 8%;
+ font-weight: 900;
+ cursor: pointer;
+}
+.m2left input{
+    margin-left: 10%;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.m2left label{
+    font-size: 16px;
+    font-weight: 600;
+    opacity: 0.9;
+    margin-left: 6px;
+}
+.m2left label:hover{
+    color: rgb(179, 117, 4);;
 }
