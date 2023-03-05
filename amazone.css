@@ -87,7 +87,7 @@
 .aco h4{
      margin-top: 24px;
      margin-left: 24px;
-     color: white;
+    color: white;
 }
 .aco h3{
     margin-left:24px ;
@@ -247,15 +247,50 @@
     color: rgb(50, 50, 250);
     cursor: pointer;
 }
-.m3right{
+
+.vip23{
     display: flex;
 }
-.amn2{
+#m3right>img{
+
+    
+}
+span{
+    margin-top: 40px;
+    margin-left: -90px;
+
+}
+.vip23> h1{
+    margin-left:40%;
+}
+.m10> img{
+    height: 200px;
+    width:70%;
+    /* display: flex; */
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-left: 25%;
+}
+.vip23 > p{
+     margin-top: 40%;
+     margin-left: -35%;
+}
+#m3right{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2%;
+    margin-left: 5%;
+    /* width: 100%; */
+    /* height: 300px; */
+    /* justify-content: space-between; */
+    /* text-align: center; */
+}
+/* .amn2{
     background-color: white;
     height: 380px;
     width: 23%;
     /* border: 1px  solid red; */
-    margin-top: 17%;
+    /* margin-top: 17%;
     margin-left:18px;
 }
 .amn2 h1{
@@ -374,5 +409,5 @@
     margin-left: 2%;
     height: 200px;
     width: 100%;
-}
+} */ */
 

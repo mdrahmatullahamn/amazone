@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>amazon</title>
+    <style>
+        .m10 {
+            margin-left: 30%;
+            /* margin-top: %; */
+            border: 1px solid rgb(206, 205, 205);
+            height: 450px;
+            width: 30%;
+        }
+
+        input {
+            margin-left: 10%;
+            height: 28px;
+            width: 80%;
+        }
+
+        label {
+            margin-left: 10%;
+            font-size: 16px;
+            font-weight: 600;
+        }
+
+        .v1>h1 {
+            margin-left: 10%;
+            font-size: 24px;
+        }
+
+        .mv>img {
+            height: 80px;
+            margin-left: 40%;
+        }
+        .vip>h4{
+            font-size: 13px;
+            margin-left: 37px;
+            font-weight: 500;
+        }
+        .v2>h4{
+            font-size: 13px;
+            margin-left: 37px;
+            font-weight: 400;
+        }
+        #v12{
+            width: 82%;
+            height: 30px;
+            background-color: #f3cd6f;
+            border: none;
+            outline: none;
+            color:black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="mv">
+        <img src="./download.png" alt="">
+    </div>
+    <div class="m10">
+        <form onsubmit="register(event)">
+            <div class="v1">
+                <h1>LogIn</h1>
+            </div>
+            <label for="">Name</label> <br>
+            <input id="userName" type="text" placeholder="Enter your name"> <br>
+            <label for="">Email</label> <br>
+            <input id="userEmail" type="email" placeholder="Enter your email"> <br>
+            <label for="">Password</label> <br>
+            <input id="userPassword" type="password" placeholder="Enter your password"> <br>
+            <div class="vip">
+            <h4>By enrolling your mobile phone number, you consent to receive automated security notifications via text message from Amazon. Message and data rates may apply</h4>
+        </div>
+            <input id="v12" type="submit" value="Register">
+            <div class="v2">
+                <h4>
+                    Already have an account? <a href="">Sign in</a> 
+                    Buying for work? <a href="">Create a free business account</a> </h4>
+                    <h4>By creating an account or logging in, you agree to Amazon’s <a href="">Conditions of Use</a>  and <a href="">Privacy Policy.</a> </h4>
+            </div>
+        </form>
+    </div>
+    <script src="./amazone.js"></script>
+</body>
+
+</html>
