@@ -4,7 +4,7 @@
 }
 .ful-page{
     height: 700px ;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 .navbar{
     height: 70px;
@@ -228,7 +228,7 @@
     margin-top: 17%;
     margin-left:18px;
 }
-.amn h1{
+.amn h3{
     margin-top: 10px;
     margin-left: 10px;
     font-size: 26px;
@@ -240,7 +240,7 @@
     margin-top:4%;
     margin-left: 27px;
 }
-.amn h4{
+.amn h1{
     margin-top: 10px;
     margin-left: 10%;
     font-size: 14px;
@@ -250,30 +250,36 @@
 
 .vip23{
     display: flex;
+    /* margin-left: 10%; */
 }
 #m3right>img{
 
     
 }
 span{
-    margin-top: 40px;
-    margin-left: -90px;
+    margin-top: 20px;
+    margin-left: -92px;
 
 }
-.vip23> h1{
-    margin-left:40%;
+.vip23> h4{
+    margin-left:100%;
+    /* margin-left: 10%; */
+}
+.c10{
+    margin-left: 30%;
 }
 .m10> img{
-    height: 200px;
-    width:70%;
+    margin-left: 10%;
+    height: 230px;
+    width:100%;
     /* display: flex; */
     flex-wrap: nowrap;
     justify-content: space-between;
-    margin-left: 25%;
+    /* margin-left: 20px; */
 }
 .vip23 > p{
-     margin-top: 40%;
-     margin-left: -35%;
+     margin-top: 22%;
+     margin-left:-10%;
 }
 #m3right{
     display: flex;
@@ -337,9 +343,6 @@ span{
     height: 380px;
     width: 23%;
     /* border: 1px  solid red; */
-    margin-top: 17%;
-    margin-left:18px;
-}
 .amn3 h1{
     margin-top: 10px;
     margin-left: 10px;
@@ -409,5 +412,85 @@ span{
     margin-left: 2%;
     height: 200px;
     width: 100%;
-} */ */
+} 
+.mm-right{
+    /* border: 1px solid black; */
+    width: 20%;
+}
+.righth1 >h1{
+    font-size: 20px;
+    /* font-family:'Courier New', Courier, monospace; */
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.right2{
+    display: flex;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+.right2 >h2{
+    font-size: 16px;
+    margin-left: 5px;
+    font-weight: 400;
+
+}
+.t20{
+    margin-left: 15px;
+    margin-top: 20px;
+}
+.t20 >h1{
+    font-size: 20px;
+    /* font-family:'Courier New', Courier, monospace; */
+    /* margin-left: 15px; */
+    margin-top: 10px;
+}
+.t21{
+    margin-top:10px;
+    margin-left: 15px;
+
+}
+.t21>h2{
+    font-size: 16px;
+    /* margin-left: 5px; */
+    font-weight: 400;
+}
+.t22{
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.t22>h2{
+    margin-top: 10px;
+    font-size: 17px;
+    
+}
+.m23{
+    margin-top: 10px;
+    margin-left: 15px;
+    display: flex;
+}
+.m23>i{
+/* background-color: #febd69; */
+color: #febd69;
+}
+.v12>h1{
+    font-size: 20px;
+    /* font-family:'Courier New', Courier, monospace; */
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.v14{
+    display: flex;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+.v14>h2{
+    font-size: 16px;
+    margin-left: 5px;
+    font-weight: 400;
+}
+.divImg >img{
+    margin-top: 40%;
+    margin-left: 3px;
+}
+
 
