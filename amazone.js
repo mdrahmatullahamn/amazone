@@ -37,6 +37,33 @@ if(flag===true){
 
     
 }
+function login(event) {
+    event.preventDefault();
+    // getting data from html to js 
+    alert("submit")
+    var userEmail = document.getElementById("email").value;
+    var userPassword = document.getElementById("password").value;
+
+    var dataFromLS = JSON.parse(localStorage.getItem("userData"));
+
+    var flag = false;
+    for (var i = 0; i < dataFromLS.length; i++) {
+        if (dataFromLS[i].email === userEmail && dataFromLS[i].password === userPassword) {
+            flag = true;
+        }
+    } if (flag === true) {
+        document.getElementById("email").value = '';
+        document.getElementById("password").value = '';
+        var user = {};
+        user["current-user-email"] = userEmail;  
+        localStorage.setItem("userEmail",JSON.stringify(user)) 
+        window.location.href = "home.html";
+        alert("login done....")
+
+    } else {
+        alert("wrong cread plese check email and password")
+    }
+}
 var gettingEmail;
 function forgetPassword() {
     var dataFromLS = JSON.parse(localStorage.getItem("userData"));
